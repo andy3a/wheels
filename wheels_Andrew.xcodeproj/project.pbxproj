@@ -34,7 +34,6 @@
 		FA26270226BD5E2600DE81FD /* ResultScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA26270126BD5E2600DE81FD /* ResultScreenViewController.xib */; };
 		FA26270626C13E6700DE81FD /* ControlResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26270526C13E6700DE81FD /* ControlResults.swift */; };
 		FA26270826C172E400DE81FD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26270726C172E400DE81FD /* User.swift */; };
-		FA26270B26C1789C00DE81FD /* Atlantis in Frameworks */ = {isa = PBXBuildFile; productRef = FA26270A26C1789C00DE81FD /* Atlantis */; };
 		FA26271126C26D4C00DE81FD /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26271026C26D4C00DE81FD /* LoginCoordinator.swift */; };
 		FA26271326C26DE500DE81FD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26271226C26DE500DE81FD /* LoginViewModel.swift */; };
 		FA26271526C26E1900DE81FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26271426C26E1900DE81FD /* LoginViewController.swift */; };
@@ -212,7 +211,6 @@
 				FA164B8E26AAF61700D7BA22 /* Alamofire in Frameworks */,
 				FA706DC426CD46F5007F60ED /* KDCircularProgress in Frameworks */,
 				FA360FB926C5D23100EE7145 /* KeychainAccess in Frameworks */,
-				FA26270B26C1789C00DE81FD /* Atlantis in Frameworks */,
 				FA85393226B32E4A00AA171C /* AlamofireImage in Frameworks */,
 				FA1D961526BAF723005710A2 /* Nuke in Frameworks */,
 			);
@@ -701,7 +699,6 @@
 				FA164B8D26AAF61700D7BA22 /* Alamofire */,
 				FA85393126B32E4A00AA171C /* AlamofireImage */,
 				FA1D961426BAF723005710A2 /* Nuke */,
-				FA26270A26C1789C00DE81FD /* Atlantis */,
 				FA360FB826C5D23100EE7145 /* KeychainAccess */,
 				FA16A46226CD18BD00C2622D /* IQKeyboardManagerSwift */,
 				FA706DC326CD46F5007F60ED /* KDCircularProgress */,
@@ -1153,11 +1150,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FA1D961326BAF723005710A2 /* XCRemoteSwiftPackageReference "Nuke" */;
 			productName = Nuke;
-		};
-		FA26270A26C1789C00DE81FD /* Atlantis */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA26270926C1789C00DE81FD /* XCRemoteSwiftPackageReference "atlantis" */;
-			productName = Atlantis;
 		};
 		FA360FB826C5D23100EE7145 /* KeychainAccess */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -7,9 +7,6 @@
 
 import UIKit
 import IQKeyboardManagerSwift
-#if DEBUG
-import Atlantis
-#endif
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,9 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-        #if DEBUG
-        Atlantis.start()
-        #endif
+
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.keyboardDistanceFromTextField = 100
         return true
